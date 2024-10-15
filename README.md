@@ -2,6 +2,8 @@
 
 TechRadar is a dynamic, interactive visualization tool designed to help organizations track and manage their technology stack. It provides a clear, visual representation of various technologies, categorized into quadrants and rings, allowing teams to quickly assess and communicate the status of different tools, techniques, platforms, and frameworks within their ecosystem.
 
+![Dashboard](/img/dashboard.png)
+
 ## Features
 
 - Interactive radar chart visualization
