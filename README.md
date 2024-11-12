@@ -29,7 +29,8 @@ To set up the project locally, follow these steps:
 
 3. Setup database in Supabase:
    Run this command in Supabase
-   ```
+   
+   ```sql
   create table blips (
   id uuid default gen_random_uuid() primary key,
   name text not null,
