@@ -28,7 +28,7 @@ To set up the project locally, follow these steps:
    ```
 
 3. Setup database in Supabase:
-   The commands are under supabase.sql
+   The commands are under `supabase.sql`
   
 
 4. Set up environment variables:
