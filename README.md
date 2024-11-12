@@ -30,7 +30,7 @@ To set up the project locally, follow these steps:
 3. Setup database in Supabase:
    Run this command in Supabase
    ```
-   create table blips (
+  create table blips (
   id uuid default gen_random_uuid() primary key,
   name text not null,
   quadrant text not null check (quadrant in ('Techniques', 'Tools', 'Platforms', 'Languages & Frameworks')),
@@ -38,13 +38,13 @@ To set up the project locally, follow these steps:
   description text,
   owner text not null,
   created_at timestamp with time zone default timezone('utc'::text, now()) not null
-);
+  );
 
--- Enable Row Level Security (RLS)
-alter table blips enable row level security;
+  -- Enable Row Level Security (RLS)
+  alter table blips enable row level security;
 
--- Create a policy that allows anonymous access
-create policy "Allow anonymous access"
+  -- Create a policy that allows anonymous access
+  create policy "Allow anonymous access"
   on blips
   for all
   to anon
